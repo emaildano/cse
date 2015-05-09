@@ -1,6 +1,6 @@
 # Google CSE PHP Examples
 
-php```
+```php
 foreach( $json->responseData->results as $result) {
   echo '<div style="padding-bottom: 20px;">';
   echo $result->url . '<br>';
